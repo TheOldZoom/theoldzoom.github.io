@@ -14,7 +14,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/profile.png" />
         <meta
           name="description"
-          content="Zoom's Portofolio. Let me finish it !!"
+          content="Zoom's Portfolio. Let me finish it !!"
         />
         <meta
           property="og:image"
