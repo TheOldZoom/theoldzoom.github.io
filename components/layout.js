@@ -5,7 +5,7 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
 const name = 'Zoom';
-export const siteTitle = "Zoom's Portofolio";
+export const siteTitle = "Zoom's Portfolio";
 
 export default function Layout({ children, home }) {
   return (
