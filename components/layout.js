@@ -5,6 +5,7 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
 const name = 'Zoom';
+export const siteContent = "Zoom's public repository & docs about then"
 export const siteTitle = "Zoom's Portfolio";
 
 export default function Layout({ children, home }) {
@@ -20,6 +21,7 @@ export default function Layout({ children, home }) {
           property="og:image"
           content={"/profile.png"}
         />
+        <meta name="og:description" content={siteContent} /> 
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
