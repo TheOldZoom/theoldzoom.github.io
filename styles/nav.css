@@ -7,6 +7,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-radius: 5px; /* Add border-radius for a nicer look */
 }
 
 nav ul {
@@ -28,6 +29,7 @@ nav ul li a {
   color: #fff;
   text-decoration: none;
   transition: color 0.3s ease;
+  padding: 8px 12px; /* Add some padding to make links easier to click */
 }
 
 nav ul li a:hover {
@@ -39,11 +41,11 @@ nav ul li a:hover {
   color: #ffffff;
   text-decoration: none;
   border-radius: 5px;
+  padding: 8px 12px; /* Match padding with non-active links */
 }
 
 .active:hover {
   text-decoration: underline;
-  color: #ffffff;
 }
 
 /* Media query for smaller screens */
