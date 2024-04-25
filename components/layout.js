@@ -6,20 +6,20 @@ import Link from 'next/link';
 
 const name = 'Zoom';
 export const siteContent = "Zoom's public repository & docs about then"
-export const siteTitle = "Zoom's Portfolio";
+export const siteTitle = "Zoom is a dev";
 
 export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
-        <link rel="icon" href="/profile.png" />
+        <link rel="icon" href="https://zoom.is-a.dev/api/i/ZoomProfile.png" />
         <meta
           name="description"
           content="Zoom's Portfolio. Let me finish it !!"
         />
         <meta
           property="og:image"
-          content={"/profile.png"}
+          content={"https://zoom.is-a.dev/api/i/ZoomProfile.png"}
         />
         <meta name="og:description" content={siteContent} /> 
         <meta name="og:title" content={siteTitle} />
@@ -30,7 +30,7 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="/profile.png"
+              src="https://zoom.is-a.dev/api/i/ZoomProfile.png"
               className={utilStyles.borderCircle}
               height={144}
               width={144}
@@ -43,7 +43,7 @@ export default function Layout({ children, home }) {
             <Link href="/">
               <Image
                 priority
-                src="/profile.png"
+                src="https://zoom.is-a.dev/api/i/ZoomProfile.png"
                 className={utilStyles.borderCircle}
                 height={108}
                 width={108}
