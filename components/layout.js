@@ -5,7 +5,7 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
 const name = 'Zoom';
-export const siteContent = "Zoom's public repository & docs about then"
+export const siteContent = "The Best Developer so far 😎"
 export const siteTitle = "Zoom is a dev";
 
 export default function Layout({ children, home }) {
@@ -23,7 +23,7 @@ export default function Layout({ children, home }) {
         />
         <meta name="og:description" content={siteContent} /> 
         <meta name="og:title" content={siteTitle} />
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:card" content="summary_large_mage"i />
       </Head>
       <header className={styles.header}>
         {home ? (

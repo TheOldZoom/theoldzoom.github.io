@@ -15,8 +15,8 @@ export default function Header() {
               alt="Zoom"
               src="https://zoom.is-a.dev/api/i/ZoomProfile.png"
               className={utilStyles.borderCircle}
-              height={108}
-              width={108}
+              height={64}
+              width={64}
             />
           </Link>
         </div>
